@@ -30,6 +30,14 @@ Lifting Diary - a Next.js 16 fitness/workout tracking application (greenfield pr
 - Dark mode uses `prefers-color-scheme` media query with CSS variables (`--background`, `--foreground`)
 - Static assets in `public/`
 
+## Documentation-First Rule
+
+**IMPORTANT:** Before generating or modifying any code, ALWAYS read and refer to the relevant documentation files in the `docs/` directory first. These docs contain project-specific decisions, patterns, and requirements that MUST be followed. If a docs file covers the area you are working on, treat it as the source of truth.
+
+Current docs:
+- `docs/ui.md` — UI guidelines and component patterns
+- `docs/data-fetching.md` — Data fetching rules and database access patterns
+
 ## Key Conventions
 
 - Tailwind v4: theme customization goes in `globals.css` using `@theme inline` blocks, not a separate config file
